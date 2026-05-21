@@ -6,7 +6,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Textarea } from "@/components/ui/textarea";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle2, ArrowRight, MessageCircle } from "lucide-react";
+import { CheckCircle2, ArrowRight, MessageCircle, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -281,6 +281,50 @@ export default function Home() {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Portfólio Section */}
+      <section className="py-20 md:py-32 bg-white">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Projetos Entregues</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Veja alguns dos projetos que já desenvolvemos com sucesso.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-1 gap-12">
+            <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 border-2 border-primary/10">
+              <div className="grid md:grid-cols-2 gap-0">
+                <div className="relative overflow-hidden bg-gray-100">
+                  <img
+                    src="/manus-storage/sunseeker-project_b7af808c.webp"
+                    alt="Sunseeker - Plataforma de Energia Solar"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <CardContent className="pt-8 flex flex-col justify-center">
+                  <Badge className="w-fit mb-4 bg-blue-600">Projeto Premium</Badge>
+                  <h3 className="text-2xl font-bold mb-3">Sunseeker</h3>
+                  <p className="text-gray-600 mb-4">
+                    Plataforma completa de monitoramento e gestão de energia solar residencial. Sistema com login, dashboard, análise de dados em tempo real e integração com API de energia.
+                  </p>
+                  <div className="space-y-2 mb-6">
+                    <p className="text-sm text-gray-700">
+                      <strong>Recursos:</strong> Autenticação de usuários, Dashboard interativo, Monitoramento 24/7, Relatórios de economia, Design responsivo
+                    </p>
+                  </div>
+                  <Button
+                    onClick={() => window.open("https://murilao69.github.io/TCC_SUNSEEKER/", "_blank")}
+                    className="bg-primary hover:bg-blue-700 w-full"
+                  >
+                    Ver Projeto <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </CardContent>
+              </div>
+            </Card>
           </div>
         </div>
       </section>
