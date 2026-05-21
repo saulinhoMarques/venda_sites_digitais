@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310419663032124700/4C9QkDMSnrNdyapLJGqCSc",
+    "access_key_id": "ASIAZV3A2ECZK22634IO",
+    "secret_access_key": "dybxQa56njLgYTG8z92y/SkgqxlvdWb/0htuUfaC",
+    "session_token": "IQoJb3JpZ2luX2VjED0aCXVzLWVhc3QtMSJHMEUCIF+LgA9h6kKUY25JETHnBn2pjAEmE/qgU+bJ3kQygoewAiEAhwycYpBpSnJDhYfXmpDCObmvufIDOuY6ApoPeCaeY88q9gMIBhAEGgw2NjUzODYwOTg4NjYiDPqH2hAERG9Wg5+SXyrTA+cxBgMY27BoKji2YGiSWWDBe9itaXMjBnk1IlRuZuxMm2RT1ER0VFY7z62FG6kwMISJpaXVK0mhf7I9Wt1THZY/Brv+Vq7NGoVUkvE+AQq5q4QDlaS7J4q8zwQW+8VVWMaHbzkKgyXYT8DijLOq+JUaaVCI1diAMOsQu2MklclNBO83I97N8Z0isMN8QvK+7cOd2qMbRaAMlXgKIHXirkqXH7t4VIOzCRU2gd/jgl9CFIWJlczG+CjVVcUiVMgz6/ceYX0tM9hpZzHPKuK6kv9HDEOmYhJ4QuaOTPl5V8ciIBTSz4y+0n1IksCjE5WP72irq3RwZAs7vfDVteVUoRxWqL1fWh8879N7j1IAHnLqZGP4JkiP+tByRsRK9tt3tr44gELNHTP3TuWyRSz0v9fn8hoTgcjz0DyLArULvFdQQFdsTsIwd5A5TvXs+aBIEROtRs6357PhPiFE9bH67EnVAq96QyMSBkwXp78nK4MVVVbBwNUql1ARqJi75gE9iCGdKkc9TUdM0/8MDoiv+h9aFKJcVLVV8sb/+ge3Wwgpcd4Hy8gg+0sVZC3GmqbIJrDyJmZIp2rGZiMRi9bjaB8d18awy2PYHwX+dS/zm584Ip7eMKj4u9AGOp0BPVnFb0q5zf5GhZAc27JLmPfkqFU6M4CFqVWPV8kNme7QPZH9k8HBOXfrGzDtuGFluo9HrmEHSd0qw95YvARJkQhLJsJLkXpN4/pd3PX0SgcrivCiKWuvQCHN/UUOBenISbR4P6HvPKwNsRXXchc7Ltk0RBrv/Xo/22Z5OsXzN3pRGUkC60358a9Hd+/3b65RFVq0UNtnAHdR7QwuRA==",
+    "expiration": "2026-05-22T00:35:52.000Z"
+  },
+  "name": "venda_sites_digitais",
+  "path": "/home/ubuntu/venda_sites_digitais",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "9hGjd82Shgp8x8ad3FnuNH",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "mhnLXQsHaUapfwZy3U6ddo",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "saulo da silva",
+    "OWNER_OPEN_ID": "HiRUHtWxwPsi3hdLFMfYXW",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "e9790e0c-81f6-406a-82dd-fa596216d088",
+    "VITE_APP_ID": "4C9QkDMSnrNdyapLJGqCSc",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Saulo Marques - Venda de Sites e Serviços Digitais",
+    "VITE_FRONTEND_FORGE_API_KEY": "2GEnY5DSe6HynZvebFyryo",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
